@@ -18,7 +18,7 @@ prompts for each one — no need to remember `touch` and `mkdir` syntax.
 ## Requirements
 
 - Linux, macOS, or WSL
-- `bash` (installed by default on almost every system)
+- `bash` (and Almost any shell,installed by default on almost every system)
 
 ## Download
 

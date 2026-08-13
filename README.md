@@ -22,51 +22,49 @@ prompts for each one — no need to remember `touch` and `mkdir` syntax.
 
 ## Download
 
-Clone the repository:
-
-\`\`\`bash
+```bash
 git clone https://github.com/truedawrin/true-touch.git
 cd true-touch
-\`\`\`
+```
 
 ## Install
 
 ### Option A — install script (recommended)
 
-\`\`\`bash
+```bash
 chmod +x install.sh
 ./install.sh
-\`\`\`
+```
 
 This copies `true-touch` into `/usr/local/bin`, making it available as a
 command from anywhere on your system.
 
 ### Option B — one-line install (no git clone needed)
 
-\`\`\`bash
+```bash
 curl -o /tmp/true-touch https://raw.githubusercontent.com/truedawrin/true-touch/main/true-touch
 sudo mv /tmp/true-touch /usr/local/bin/
 sudo chmod +x /usr/local/bin/true-touch
-\`\`\`
+```
 
 ### Option C — run locally without installing
 
-\`\`\`bash
+```bash
 chmod +x true-touch
 ./true-touch
-\`\`\`
+```
 
 ## Usage
 
-\`\`\`bash
+```bash
 true-touch
-\`\`\`
+```
 
 ## Uninstall
 
-\`\`\`bash
+```bash
 sudo rm /usr/local/bin/true-touch
-\`\`\`
+```
 
 ## License
 
